@@ -39,7 +39,6 @@ class App extends Component {
 
     const { users, isPending, isSingleUserPending, singleUser, isClickedOnce } = this.props;
 
-
     return isPending ?
       <div className='mainloader-container'><div class="loader"></div><h1>Loading...</h1></div>:
       (
@@ -60,3 +59,4 @@ class App extends Component {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
