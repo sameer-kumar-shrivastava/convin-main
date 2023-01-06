@@ -1,0 +1,24 @@
+.user-card-container{
+    height: 50vh;
+    width: 100%;
+    border: 2px solid #444;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1f;
+    border-radius: 20px;
+}
+
+.user-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    padding: 30px;
+}
+
+.user-email{
+    color: #308af8;
+}

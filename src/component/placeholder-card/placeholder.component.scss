@@ -1,0 +1,26 @@
+.placeholder-card{
+    height: 50vh;
+    width: 100%;
+    border: 2px solid #444;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1f;
+    border-radius: 20px;   
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa {
+    margin-top: 4vh;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+}
